@@ -24,7 +24,7 @@ public class BootKpackDemoApplicationTests {
 	public void testEndpoint() {
 		//assertThat(controller).isNotNull();
 		assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
-                String.class)).contains("hello");
+                String.class)).contains("Hello");
 	}
 
 }
