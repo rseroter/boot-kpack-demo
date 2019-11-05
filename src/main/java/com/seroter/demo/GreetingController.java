@@ -8,7 +8,7 @@ public class GreetingController {
 	
 	@GetMapping("/")
 	public String SayHi() {
-		return "Hello VMworld Europe!";
+		return "Hello VMworld!";
 	}
 
 }
